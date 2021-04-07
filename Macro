@@ -1,0 +1,473 @@
+ set #handle findwindow (8604)
+//ajustes iniciais
+wait 3s
+repeat 2
+    left 997, 97
+    end_repeat
+left 864, 55
+wait 1s
+// invite team
+:team
+send F  1000
+left 708, 198
+wait 1000
+right 601, 253
+wait 5
+left 642, 323
+wait 1000
+send F 1000
+//coreção bug
+set #a findcolor (792 12 1005 186  (2903456) %arr workwindow)
+if #a > 0
+    send 7
+    wait 1s
+    right 47, 47
+wait 500
+left 133, 100
+wait 1s
+    goto team
+    end_if
+//cura
+wait 1s
+
+send f1
+send {F6}
+wait 1s
+send {F5}
+wait 1s
+send {F9}
+wait 1s
+send {F2} 1200
+send {F2} 1200
+send {F2} 1200
+send {F2} 1200
+send {F2} 1200
+send {F2} 1200
+send {F2} 1200
+send {F2} 1200
+send {F2} 1200
+send {F2} 1200
+
+wait 5s
+
+repeat 3
+    send_down {down}
+  wait 1s
+    end_repeat
+left 867, 53
+wait 1s
+//ir para vast
+
+double_right 463, 474
+double_right 463, 474
+double_right 463, 474
+double_right 463, 474
+double_right 463, 474
+double_right 463, 474
+//
+repeat 2
+set #a findcolor (199 159 509 675 (10263427) %arr workwindow)
+if #a > 0
+    left 346, 653
+    wait 1s
+set #a findcolor (792 12 1005 186 (5404036) %arr workwindow)
+if #a > 0
+    send 7
+    wait 1s
+    right 47, 47
+wait 500
+left 133, 100
+wait 1s
+    goto team
+    end_if
+    double_right 463, 474
+double_right 463, 474
+double_right 463, 474
+double_right 463, 474
+double_right 463, 474
+double_right 463, 474
+    end_if
+    end_repeat
+    //
+repeat 2
+set #a findcolor (200 155 494 674 (11390975) %arr workwindow)
+if_not #a > 0
+    wait 1s
+set #b findcolor (792 12 1005 186 (5404036) %arr workwindow)
+if #b > 0
+    send 7
+    wait 1s
+    right 47, 47
+wait 500
+left 133, 100
+wait 1s
+    goto team
+    end_if
+double_right 463, 474
+double_right 463, 474
+double_right 463, 474
+double_right 463, 474
+double_right 463, 474
+double_right 463, 474
+    end_if
+end_repeat
+wait 1s
+left 307, 552
+wait 2s
+//usar mount
+send 0
+wait 3s
+// venda//
+double_right 300, 220
+double_right 300, 220
+double_right 300, 220
+double_right 300, 220
+double_right 307, 207
+double_right 322, 255
+double_right 322, 255
+double_right 300, 220
+wait 2s
+left 267, 409
+wait 2s
+repeat 6
+left 284, 102
+wait 100
+left 447, 322
+wait 100
+    end_repeat
+left 297, 521
+wait 2s
+       //ir pra cave
+double_right  473, 377
+double_right  473, 377
+double_right  473, 377
+double_right  473, 377
+double_right  473, 377
+double_right  479, 333
+double_right  473, 377
+double_right  468, 357
+wait 1s
+repeat 2
+set #a findcolor (200 155 494 674 (11390975) %arr workwindow)
+if_not #a > 0
+    wait 1s
+    double_right  473, 377
+double_right  473, 377
+double_right  473, 377
+double_right  473, 377
+double_right  473, 377
+double_right  479, 333
+double_right  473, 377
+double_right  468, 357
+wait 1s
+end_if
+end_repeat
+//1
+repeat 2
+set #a findcolor (223 176 418 275 (1270224) %arr workwindow)
+if_not #a > 0
+    wait 1s
+    double_right  473, 377
+double_right  473, 377
+double_right  473, 377
+double_right  473, 377
+double_right  473, 377
+double_right  479, 333
+double_right  473, 377
+double_right  468, 357
+wait 1s
+    end_if
+end_repeat
+left 317, 381
+wait 1s
+left 978, 56
+wait 500
+left 594, 415
+wait 500
+
+repeat 4
+left 359, 273
+wait 8s
+end_repeat
+
+left 407, 537
+wait 1s
+double_right 467, 417
+double_right  471, 394
+double_right 479, 377
+double_right  479, 362
+double_right  486, 390
+double_right  479, 393
+double_right 508, 405
+wait 1s
+left 266, 366
+wait 2s
+//sair do team
+right 50, 52
+wait 500
+left 104, 94
+wait 500
+//andar na cave pt1
+right 874, 105
+wait 2100
+right  883, 78
+wait 2100
+right  871, 98
+wait 2100
+right 883, 74
+wait 2100
+right 908, 76
+wait 2100
+right  885, 79
+wait 2100
+right 884, 78
+wait 2100
+right  915, 70
+wait 2100
+right  901, 83
+wait 2100
+right  885, 85
+wait 2100
+right 864, 108
+wait 2100
+right  870, 142
+wait 2100
+right   873, 152
+wait 2100
+right 863, 96
+wait 2100
+right 865, 89
+wait 2100
+right  868, 116
+wait 2100
+right 871, 125
+wait 2100
+right  861, 101
+wait 2100
+right  868, 130
+wait 2100
+right 877, 152
+wait 2100
+right 880, 159
+wait 2100
+right 894, 163
+wait 2100
+right 914, 164
+wait 2100
+right  887, 165
+wait 2100
+right 888, 157
+wait 2100
+right  906, 144
+wait 2100
+right 955, 146
+wait 2100
+right 948, 157
+wait 2100
+right  956, 152
+wait 2100
+right 959, 145
+wait 2100
+right 905, 163
+wait 2100
+right 892, 164
+wait 2100
+right 958, 148
+wait 2100
+right  958, 144
+wait 2100
+right 955, 152
+wait 2100
+right  950, 158
+wait 2100
+right  940, 161
+wait 2100
+right  964, 122
+wait 2100
+right  970, 110
+wait 2100
+right 964, 92
+wait 2100
+right  938, 63
+wait 2100
+right 905, 78
+wait 2100
+right 951, 89
+wait 2100
+right 968, 103
+wait 2100
+right 951, 157
+wait 2100
+right 948, 157
+wait 2100
+right  967, 124
+wait 2100
+right 970, 91
+wait 2100
+right  950, 72
+wait 2100
+right  957, 80
+wait 2100
+right  944, 65
+wait 2100
+right 921, 67
+wait 2100
+right 928, 71
+wait 2100
+right  884, 76
+wait 2100
+right  883, 75
+wait 2100
+right 874, 84
+wait 2100
+right 869, 115
+wait 2100
+right  861, 117
+wait 2100
+right  884, 111
+wait 2100
+right  923, 68
+wait 2100
+right  918, 75
+wait 2100
+right  863, 114
+wait 2100
+right 869, 113
+wait 2100
+right 876, 116
+wait 2100
+right 874, 116
+wait 2100
+right 919, 166
+wait 2100
+right 918, 166
+wait 2100
+right  961, 115
+wait 2100
+right 915, 144
+wait 2100
+right  915, 153
+wait 2100
+right  963, 112
+wait 2100
+right 940, 113
+wait 2100
+right  964, 113
+wait 2100
+right 917, 58
+wait 2100
+right 888, 116
+wait 2100
+right 895, 116
+send 6
+wait 2400
+//entrar no npc
+double_right 239, 263
+double_right  230, 202
+double_right 219, 296
+double_right  227, 193
+double_right  198, 241
+double_right  223, 293
+double_right 293, 256
+double_right 119, 237
+double_right 233, 299
+double_right 255, 308
+double_right  219, 185
+double_right  216, 223
+double_right  285, 266
+wait 1s
+
+set #a findcolor (214 176 298 263 (64511) %arr workwindow)
+if_not #a > 0
+    wait 1s
+double_right 239, 263
+double_right  230, 202
+double_right 219, 296
+double_right  227, 193
+double_right  198, 241
+double_right  223, 293
+double_right 293, 256
+double_right 119, 237
+double_right 233, 299
+double_right 255, 308
+double_right  219, 185
+double_right  216, 223
+double_right  285, 266
+end_if
+
+wait 1s
+
+left 278, 332
+
+wait 3s
+send 0 3000
+send f1
+send {F2} 1200
+send {F2} 1200
+send {F2} 1200
+send {F2} 1200
+send {F2} 1200
+send {F2} 1200
+send {F2} 1200
+send {F2} 1200
+send {F2} 1200
+send {F2} 1200
+wait 5s
+send 0 3000
+
+// caminho boss
+left 680, 475
+wait 2100
+right 879, 112
+wait 1s
+right 887, 114
+wait 1s
+right 887, 114
+wait 1s
+right 887, 114
+wait 1s
+right 887, 114
+wait 1s
+right 887, 114
+wait 1s
+right 887, 114
+wait 1s
+right 887, 114
+wait 1s
+right 887, 114
+wait 1s
+right 887, 114
+send 0
+ //attack
+repeat 70
+    send tab
+    send 1 800
+    send tab
+    send 1 800
+    send 1 800
+    wait 2s
+    send f1
+    send {F2}
+
+
+    end_repeat
+wait 1s
+send I
+set #startX 5
+set #startY 7
+set #endX 1008
+set #endY 718
+set %color[1]5391624  //courage
+set #size  size(%color)
+hint #size
+for #i 1 #size 2
+    set #a findcolor (#startX #startY #endX #endY (%color[#i])%arr workwindow)
+    if #a > 0
+        double_right %arr[1 1] %arr[1 2]
+        wait 500
+        end_if
+        send I
+        wait 3s
+send 7
+wait 2s
+end_for
