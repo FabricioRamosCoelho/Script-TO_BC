@@ -357,7 +357,7 @@ wait 2100
 right 917, 58
 wait 2100
 right 888, 116
-wait 2100
+wait 2400
 right 895, 116
 send 6
 wait 2400
@@ -439,7 +439,7 @@ wait 1s
 right 887, 114
 send 0
  //attack
-repeat 70
+repeat 55
     send tab
     send 1 800
     send tab
