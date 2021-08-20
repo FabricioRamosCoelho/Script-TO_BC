@@ -1,0 +1,28 @@
+set #a FindImage (0 0 1024 768 (C:\Users\fbdap\Desktop\botbc\team.bmp) %arr workwindow)
+if #a > 0
+    wait 500
+    set #a FindImage (0 0 1024 768 (C:\Users\fbdap\Desktop\botbc\welkin.bmp) %arr workwindow)
+if #a > 0
+    wait 500
+    goto ok
+        :ok
+     set #a FindImage (0 0 1024 768 (C:\Users\fbdap\Desktop\botbc\ok.bmp) %arr workwindow)
+if #a > 0
+    left %arr [1 1] %arr [1 2]
+    end_if
+    end_if
+    end_if
+set #a FindImage (0 0 1024 768 (C:\Users\fbdap\Desktop\botbc\team.bmp) %arr workwindow)
+if #a > 0
+    wait 500
+    set #a FindImage (0 0 1024 768 (C:\Users\fbdap\Desktop\botbc\welkin.bmp) %arr workwindow)
+if_not #a > 0
+    wait 500
+    goto cancel
+        :cancel
+    set #a FindImage (0 0 1024 768 (C:\Users\fbdap\Desktop\botbc\cancel.bmp) %arr workwindow)
+if #a > 0
+    left %arr [1 1] %arr [1 2]
+    end_if
+    end_if
+    end_if
